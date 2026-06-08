@@ -1,0 +1,11 @@
+altair
+pandas
+streamlit
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+scikit-surprise==1.1.4
+requests==2.32.3
+plotly==5.24.1
+streamlit==1.45.1
+huggingface_hub==0.14.1

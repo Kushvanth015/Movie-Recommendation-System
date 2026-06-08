@@ -1,0 +1,20 @@
+# Dataset
+*.csv
+ml-32m/
+
+# Models
+*.pkl
+*.joblib
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Streamlit
+.streamlit/
