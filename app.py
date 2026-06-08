@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+from download_models import download_models
+download_models()
+
 from utils.auth import (
     login_user,
     register_user

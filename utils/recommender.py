@@ -7,19 +7,19 @@ from sklearn.metrics.pairwise import linear_kernel
 
 print("Loading movies.pkl...")
 movies = pd.read_pickle(
-    "https://huggingface.co/Kushvanth05/movie-recommendation-models/resolve/main/movies.pkl"
+    "movies.pkl"
 )
 print("✅ movies.pkl loaded")
 
 print("Loading links.pkl...")
 links = pd.read_pickle(
-    "https://huggingface.co/Kushvanth05/movie-recommendation-models/resolve/main/links.pkl"
+    "links.pkl"
 )
 print("✅ links.pkl loaded")
 
 print("Loading svd_model.pkl...")
 with open(
-    "https://huggingface.co/Kushvanth05/movie-recommendation-models/resolve/main/svd_model.pkl",
+    "svd_model.pkl",
     "rb"
 ) as f:
     svd_model = pickle.load(f)
@@ -27,7 +27,7 @@ print("✅ svd_model.pkl loaded")
 
 print("Loading tfidf_matrix.pkl...")
 with open(
-    "https://huggingface.co/Kushvanth05/movie-recommendation-models/resolve/main/tfidf_matrix.pkl",
+    "tfidf_matrix.pkl",
     "rb"
 ) as f:
     tfidf_matrix = pickle.load(f)
@@ -35,7 +35,7 @@ print("✅ tfidf_matrix.pkl loaded")
 
 print("Loading movie_indices.pkl...")
 with open(
-    "https://huggingface.co/Kushvanth05/movie-recommendation-models/resolve/main/movie_indices.pkl",
+    "movie_indices.pkl",
     "rb"
 ) as f:
     movie_indices = pickle.load(f)
