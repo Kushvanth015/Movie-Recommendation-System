@@ -1,6 +1,3 @@
-# Dataset
-*.csv
-ml-32m/
 
 # Models
 *.pkl
